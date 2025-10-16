@@ -1,0 +1,14 @@
+li:hover {
+    cursor:cell;
+    font-size:25px;
+    background-color:rgb(101, 231, 187)
+}
+
+li {
+    background-color:bisque
+}
+
+li:active {
+    font-style:italic;
+    background-color:rgb(0, 203, 135);
+}
