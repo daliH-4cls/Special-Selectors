@@ -1,11 +1,11 @@
+ul {
+    list-style:none;
+}
+
 li:hover {
     cursor:cell;
     font-size:25px;
     background-color:rgb(101, 231, 187)
-}
-
-ul {
-    list-style:none;
 }
 
 li {
@@ -34,4 +34,14 @@ li:active::before {
 
 li:active::after {
     content: "Yippeeeee 🎇";
+}
+
+
+.card h3::before {
+    content: "SALE";
+    background-color:red;
+}
+
+.card a {
+    background-color: rgb(255, 115, 0);
 }
